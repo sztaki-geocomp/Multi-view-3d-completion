@@ -15,10 +15,10 @@ The code will be available soon.
 If you found this work helpful for your research, or use some part of the code, please cite our submitted paper (to appear soon):
 
 ```text
-@article{lidar-scu, 
-	title={{Point Cloud Registration and Change Detection in Urban Environment Using an Onboard Lidar Sensor and MLS Reference Data}}, 
-	author={Zováthi, Örkény and Nagy, Balázs and Benedek, Csaba}, 
-	journal={International Journal of Applied Earth Observation and Geoinformation}, 
+@article{Multi_view_3d_completion, 
+	title={{Multi-view Based 3D Point Cloud Completion Algorithm for Vehicles}}, 
+	author={Ibrahim, Yahya and Nagy, Balázs and Benedek, Csaba}, 
+	journal={International Conference on Pattern Recognition}, 
 	year={2022},
 	note={to appear}
 }
