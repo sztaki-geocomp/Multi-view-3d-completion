@@ -3,6 +3,8 @@ Supplementary material to our submitted paper in the 26TH International Conferen
 
 [Video](https://youtu.be/_g9bZVt9Wc8) 
 
+[![Everything Is AWESOME](https://youtu.be/_g9bZVt9Wc8/0.jpg)](https://youtu.be/_g9bZVt9Wc8 "Everything Is AWESOME"
+
 
 ## Dataset
 The full dataset will be available in the future.
