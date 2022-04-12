@@ -5,24 +5,13 @@ Supplementary material to our submitted paper in the 26TH International Conferen
 
 
 ## Dataset
-The full dataset will be available soon.
+The full dataset will be available in the future.
 
 ## Code 
 
-The code will be available soon.
+The code will be available in the future.
 
-## Citation
-If you found this work helpful for your research, or use some part of the code, please cite our submitted paper (to appear soon):
 
-```text
-@article{Multi_view_3d_completion, 
-	title={{Multi-view Based 3D Point Cloud Completion Algorithm for Vehicles}}, 
-	author={Ibrahim, Yahya and Nagy, Balázs and Benedek, Csaba}, 
-	journal={International Conference on Pattern Recognition}, 
-	year={2022},
-	note={to appear}
-}
-```
 
 
 
