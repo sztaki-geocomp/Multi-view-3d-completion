@@ -5,6 +5,7 @@ Supplementary material to our submitted paper in the 26TH International Conferen
 
 [![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_g9bZVt9Wc8/0.jpg)](https://www.youtube.com/watch?v=_g9bZVt9Wc8)
 
 ## Dataset
 The full dataset will be available in the future.
