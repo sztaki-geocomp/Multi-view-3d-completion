@@ -13,6 +13,35 @@ The full dataset will be available in the future.
 The code will be available in the future.
 
 
+### Dataset structure
+We provide the data in raw images for the XYZ channels and the RGB channels.
+
+    ├── Data                       # Main dataset folder
+    │   ├── GT                    # Contains  samples
+    │   │   ├── train             # Samples in raw image format
+    │   │   │   ├── synsetId 
+    │   │   │   │   ├── modelId 
+    |   │   │   │   │   ├── images 
+    │   │   ├── test             
+    │   │   │   ├── synsetId 
+    │   │   │   │   ├── modelId 
+    |   │   │   │   │   ├── images 
+    │   ├── in              # Contains 500 samples 
+    │   │   ├── train             # Samples in raw image format
+    │   │   │   ├── synsetId 
+    │   │   │   │   ├── modelId 
+    |   │   │   │   │   ├── samples 
+    |   |   │   │   │   │   ├── images
+    │   │   ├── test             
+    │   │   │   ├── synsetId 
+    │   │   │   │   ├── modelId 
+    |   │   │   │   │   ├── samples
+    |   |   │   │   │   │   ├── images
+    └── ...
+
+
+
+
 
 
 
