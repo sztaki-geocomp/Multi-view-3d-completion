@@ -1,16 +1,24 @@
 # MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS Data
-Supplementary material to our submitted paper in  Image and Vision Computing Journal.
+Supplementary material to our submitted paper at  Image and Vision Computing Journal.
 
 
 
 
 
-## Dataset
-The full dataset will be available after publication.
 
 ## Code 
 
 The code for training and inference our model will be available after publication.
+
+
+## Synthetic Dataset
+The full dataset will be available after publication. Some samples are given in  Data_samples folder
+
+Our dataset contains a total of 4918 distinct models, of which 4580 are used to train our model and 338 are used as evaluation
+data. Twenty partial samples were generated for each sample using twenty distinct perspectives, yielding a training set of 91 600 objects and a test set of 6760 samples.
+
+
+
 
 
 ### Dataset structure
