@@ -2,6 +2,12 @@
 Supplementary material to our submitted paper at  Image and Vision Computing Journal.
 
 
+## Introduction 
+
+We introduce a point cloud completion Network for generating high resolution, dense 3D object models from partial point cloud Mobile Laser Scanning (MLS) measurement data. Deom of the results:
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/iQ_SWNuF2a4/0.jpg)](https://youtu.be/iQ_SWNuF2a4)
 
 
 
