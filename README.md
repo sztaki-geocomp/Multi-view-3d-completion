@@ -1,5 +1,5 @@
 # MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS Data
-Supplementary material to our submitted paper at  Image and Vision Computing Journal.
+Supplementary material to our submitted paper at  Image and Vision Computing Journal (Under review).
 
 
 ## Introduction 
@@ -56,12 +56,6 @@ We provide the data in raw images for the XYZ channels and the RGB channels.
 
 
 
-# Multi-view Based 3D Point Cloud Completion Algorithm for Vehicles
-Supplementary material to our paper published in the 26TH International Conference on Pattern Recognition August 21-25, 2022 • Montréal Québec. [link](https://ieeexplore.ieee.org/abstract/document/9956459)
-
-[Video](https://youtu.be/_g9bZVt9Wc8) 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_g9bZVt9Wc8/0.jpg)](https://www.youtube.com/watch?v=_g9bZVt9Wc8)
-
 
 
 ## Citation
@@ -77,6 +71,13 @@ If you found this work helpful for your research, or used some part of the code,
   number={},
   pages={2121-2127},
   doi={10.1109/ICPR56361.2022.9956459}}
+  
+@Article{mvpccnet,
+AUTHOR = {Ibrahim, Yahya and Benedek, Csaba},
+TITLE = {MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS Data},
+JOURNAL = {Image and Vision Computing},
+VOLUME = {(Under review)},
+}
 
 ```
 
