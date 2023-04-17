@@ -1,5 +1,5 @@
 # MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS Data
-Supplementary material to our submitted paper at  Image and Vision Computing Journal.
+Supplementary material to our  **[paper](https://www.sciencedirect.com/science/article/pii/S0262885623000495)** at  Image and Vision Computing Journal.
 
 
 ## Introduction 
