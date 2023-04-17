@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ```
 
 ## 1) Training
-To train the model, create a `config.yaml` file similar to the example config file and copy it under your checkpoints directory. 
+To train the model, create a `config.yaml` file similar to the [example config file](./checkpoints/config.yml) and copy it under your checkpoints directory. 
 To train the model:
 
 ```sh
@@ -100,7 +100,7 @@ python train.py  --checkpoints [path to checkpoints] \
 ```
 
 ## 2) Testng
-To test the model, create a `config.yaml` file similar to the example config file and copy it under your checkpoints directory. To test the model:
+To test the model, create a `config.yaml` file similar to the [example config file](./checkpoints/config.yml) and copy it under your checkpoints directory. To test the model:
 ```sh
 python test.py \
   --checkpoints [path to checkpoints] \
