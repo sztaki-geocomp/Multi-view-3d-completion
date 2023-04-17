@@ -91,7 +91,7 @@ pip install -r requirements.txt
 ```
 
 ## 1) Training
-To train the model, create a config.yaml file similar to the example config file and copy it under your checkpoints directory. 
+To train the model, create a `config.yaml` file similar to the example config file and copy it under your checkpoints directory. 
 To train the model:
 
 ```sh
@@ -100,7 +100,7 @@ python train.py  --checkpoints [path to checkpoints] \
 ```
 
 ## 2) Testng
-To test the model, create a config.yaml file similar to the example config file and copy it under your checkpoints directory. To test the model:
+To test the model, create a `config.yaml` file similar to the example config file and copy it under your checkpoints directory. To test the model:
 ```sh
 python test.py \
   --checkpoints [path to checkpoints] \
@@ -109,7 +109,7 @@ python test.py \
   --output [path to the output directory]
 ```
 
-
+For testing the algorthim with pretrained model you can see [End_to_End_Test](./End_to_End_Test) for geometry information completion and [End_to_End_Test_color](./End_to_End_Test_color) for geomerty and color information completion. 
 
 ## Citation
 If you found this work helpful for your research, or used some part of the code, please cite our paper:
