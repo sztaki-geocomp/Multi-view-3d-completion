@@ -1,0 +1,8 @@
+torch
+torchvision
+open3d
+scikit-image
+imageio
+scipy
+pyyaml==5.4.1
+opencv-python
