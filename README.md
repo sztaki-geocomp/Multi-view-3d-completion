@@ -111,15 +111,27 @@ python test.py \
 
 For testing the algorthim with pretrained model you can see [End_to_End_Test](./End_to_End_Test) for geometry information completion and [End_to_End_Test_color](./End_to_End_Test_color) for geomerty and color information completion. 
 
+## Acknowledgements
+Our code is inspired by [edge-connect](https://github.com/knazeri/edge-connect) and  [depth_renderer](https://github.com/yinyunie/depth_renderer)
+
+
+
 ## Citation
 If you found this work helpful for your research, or used some part of the code, please cite our paper:
 
 ```text
-@Article{mvpccnet,
-AUTHOR = {Ibrahim, Yahya and Benedek, Csaba},
-TITLE = {MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS Data},
-JOURNAL = {Image and Vision Computing},
-VOLUME = {}}
+@article{IBRAHIM2023104675,
+title = {MVPCC-Net: Multi-View Based Point Cloud Completion Network for MLS data},
+journal = {Image and Vision Computing},
+volume = {134},
+pages = {104675},
+year = {2023},
+issn = {0262-8856},
+doi = {https://doi.org/10.1016/j.imavis.2023.104675},
+url = {https://www.sciencedirect.com/science/article/pii/S0262885623000495},
+author = {Yahya Ibrahim and Csaba Benedek},
+keywords = {Multi-view, 3D point cloud completion, Deep learning, Mobile laser scanning},
+}
 
 
 @INPROCEEDINGS{9956459,
