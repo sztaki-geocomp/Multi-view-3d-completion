@@ -145,7 +145,7 @@ class MultiView():
             iteration += 1
             images, masks, GTs = self.cuda(*items)
 
-            outputs, gen_loss, dis_loss, logs = self.inpaint_model(images, masks, GTs, self.N_views)
+            outputs = self.inpaint_model(images, masks, GTs, self.N_views)
             masks = masks.view(masks.shape[0], self.N_views * 3, 256, 256)
             images = images.view(images.shape[0], self.N_views * 3, 256, 256)
             GTs = GTs.view(GTs.shape[0], self.N_views * 3, 256, 256)
@@ -176,10 +176,10 @@ class MultiView():
             path = os.path.join(self.results_path, name_folader)
             if not os.path.exists(path):
                 os.makedirs(path)
-            images, masks, GTs = self.cuda(*items)
+            images, masks = self.cuda(*items)
             index += 1
 
-            outputs, gen_loss, dis_loss, logs = self.inpaint_model(images, masks, images, self.N_views)
+            outputs = self.inpaint_model(images, masks, images, self.N_views)
 
             images = images.view(images.shape[0], self.N_views * 3, 256, 256)
             masks = masks.view(masks.shape[0], self.N_views * 3, 256, 256)
@@ -218,7 +218,7 @@ class MultiView():
         iteration = self.inpaint_model.iteration
 
         inputs = (images * (1 - masks)) + masks
-        outputs, gen_loss, dis_loss, logs = self.inpaint_model(images, masks, GTs, self.N_views)
+        outputs = self.inpaint_model(images, masks, GTs, self.N_views)
 
         images = images.view(images.shape[0], self.N_views * 3, 256, 256)
         masks = masks.view(masks.shape[0], self.N_views * 3, 256, 256)
