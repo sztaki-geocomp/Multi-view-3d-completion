@@ -111,15 +111,7 @@ class Dataset(torch.utils.data.Dataset):
         else:
             for ind, i in enumerate(self.sample_views):
 
-                # Load the geometry channels  for the Ground Truth
-                depth_name = (self.data[int(index)] + '/locations_{0:03d}.png'.format(i))
-                depth_gt = cv2.imread(depth_name, -1)
-                depth_gt = depth_gt.astype(float) / 65536
-                # img_gt = np.array(imread(depth_name.replace('locations', 'color')))
-                # img_gt = img_gt.astype(float) / 256
-                # gt = np.concatenate([img_gt, depth_gt], axis=2)
-                gt = depth_gt
-
+                
                 depth_in = cv2.imread(self.data[int(index)] + '/locations_{0:03d}.png'.format(i), -1)
                 depth_in = depth_in.astype(float) / 65536
                 # img_in = np.array(imread(self.data[int(index)] + '/color_{0:03d}.png'.format(i)))
@@ -134,7 +126,7 @@ class Dataset(torch.utils.data.Dataset):
 
                 all_in_out[ind] = self.to_tensor(all_in)
                 mask_out[ind] = self.to_tensor(mask)
-                gt_out[ind] = self.to_tensor(gt)
+                
 
                 #all_in_out[ind * 3: (((ind + 1)*3))] = self.to_tensor(all_in)
                 #mask_out[ind * 3: (((ind + 1)*3))] = self.to_tensor(mask)
